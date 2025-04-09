@@ -1,0 +1,32 @@
+[project]
+name = "realharm"
+version = "0.1.0"
+description = "Codebase to run RealHarm Moderators"
+readme = "README.md"
+authors = [
+    { name = "Pierre", email = "pierre@giskard.ai" },
+    { name = "Matteo", email = "matteo@giskard.ai" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "azure-ai-contentsafety>=1.0.0",
+    "backoff>=2.2.1",
+    "google-api-python-client>=2.166.0",
+    "langchain>=0.3.23",
+    "langchain-openai>=0.3.12",
+    "litellm>=1.65.4.post1",
+    "mistralai>=1.6.0",
+    "modal>=0.73.155",
+    "openai>=1.71.0",
+    "pandas>=2.2.3",
+    "pydantic>=2.11.2",
+    "python-dotenv>=1.1.0",
+    "pyyaml>=6.0.2",
+]
+
+[project.scripts]
+realharm = "realharm:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
