@@ -94,11 +94,14 @@ conversation:
 
 If you use the RealHarm dataset in your work, please cite us as follows:
 ```
-@article{
-    author = {Giskard},
-    title = {RealHarm: A Dataset of Real-World AI Failures},
-    year = {2024},
-    url = {https://github.com/giskard-ai/realharm}
+@misc{jeune2025realharmcollectionrealworldlanguage,
+      title={RealHarm: A Collection of Real-World Language Model Application Failures}, 
+      author={Pierre Le Jeune and Jiaen Liu and Luca Rossi and Matteo Dora},
+      year={2025},
+      eprint={2504.10277},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2504.10277}, 
 }
 ```
 
