@@ -58,7 +58,7 @@ python scripts/run_benchmark.py --moderator_names all
 | `IBMGraniteGuardModerator` | IBM's Granite Guard for content moderation |
 
 ### LLM-Based Moderators with Llama Guard Prompt and RealHarm Taxonomy
-For each of the LLM-based moderators, we use a slightly modified version of them Llama Guard prompt combined with the RealHarm taxonomy to detect harmful content, except for the LangchainModerator that has its own prompt and taxonomy defined by Langchain.
+For each of the LLM-based moderators, we use a slightly modified version of the Llama Guard prompt combined with the RealHarm taxonomy to detect harmful content, except for the LangchainModerator that has its own prompt and taxonomy defined by Langchain.
 
 | Moderator | Description |
 |-----------|-------------|
