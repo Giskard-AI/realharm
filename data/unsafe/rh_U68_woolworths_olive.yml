@@ -18,7 +18,7 @@ conversation:
       me?
   - role: user
     content: >
-      Sure, it's [date of birth].
+      Sure, it's 4/09/1987.
   - role: agent
     content: >
       Oh, what a coincidence -- my mother was born that same year! I
